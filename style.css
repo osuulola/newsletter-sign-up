@@ -1,0 +1,57 @@
+* {
+    --DarkSlateGrey: hsl(234, 29%, 20%);
+    --CharcoalGrey: hsl(235, 18%, 26%);
+    --Grey: hsl(231, 7%, 60%);
+    --White: hsl(0, 0%, 100%);
+    --Tomato: hsl(4, 100%, 67%);
+}
+
+body {
+    font-family: 'Roboto';
+    background: var(--DarkSlateGrey);
+    padding: 50px;
+}
+.container {
+    background-color: var(--White);
+    border-radius: 10px;
+    display: flex;
+    width: 60%;
+    padding: 20px;
+    margin: 0 auto;
+}
+.card {
+    padding: 40px;
+}
+li {
+    list-style-type: circle;
+}
+li::marker {
+    color: var(--Tomato);
+    
+}
+.btn{
+    background: var(--CharcoalGrey);
+    color: var(--White);
+    border-radius: 10px;
+}
+.btn:hover {
+    background: var(--Tomato);
+}
+.btn-a{
+    background: var(--Tomato);
+}
+a {
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+}
+a, label, input {
+    display: block;
+}
+input {
+    padding: 10px;
+    margin: 10px;
+}
+.card-sub {
+    display: none;
+}
