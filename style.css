@@ -12,6 +12,7 @@ body {
     padding: 50px;
 }
 .container {
+    display: block;
     background-color: var(--White);
     border-radius: 10px;
     display: flex;
@@ -54,4 +55,9 @@ input {
 }
 .card-sub {
     display: none;
+    background-color: var(--White);
+    border-radius: 10px;
+    width: 40%;
+    padding: 20px;
+    margin: 0 auto;
 }
