@@ -38,9 +38,7 @@ li::marker {
 .btn:hover {
     background: var(--Tomato);
 }
-.btn-a{
-    background: var(--Tomato);
-}
+
 a {
     text-decoration: none;
     padding: 10px;
