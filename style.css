@@ -24,11 +24,7 @@ body {
     padding: 40px;
 }
 li {
-    list-style-type: circle;
-}
-li::marker {
-    color: var(--Tomato);
-    
+    list-style-image: url(assets/images/icon-list.svg);   
 }
 .btn{
     background: var(--CharcoalGrey);
@@ -44,12 +40,24 @@ a {
     padding: 10px;
     text-align: center;
 }
-a, label, input {
+.error{
+    display: none;
+    color:var(--Tomato);
+}
+a, input {
     display: block;
+}
+label{
+    font-size: smaller;
+    font-weight: bold;
 }
 input {
     padding: 10px;
     margin: 10px;
+    width:auto;
+}
+input:invalid {
+    border-color: var(--Tomato);
 }
 .card-sub {
     display: none;
